@@ -1,0 +1,13 @@
+
+.register h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.register {
+    margin: 0 auto;
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    border-radius: 3px;
+}

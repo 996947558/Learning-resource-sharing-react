@@ -1,0 +1,13 @@
+.Details {
+    margin: 10px auto;
+    max-width: 1200px;
+    background-color: #fff;
+
+}
+.DetailsTitle {
+    text-align: center;
+}
+.DetailsContent {
+    text-align: center;
+    min-height: 600px;
+}

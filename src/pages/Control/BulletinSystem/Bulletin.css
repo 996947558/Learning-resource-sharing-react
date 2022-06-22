@@ -1,0 +1,11 @@
+.Bulletin {
+    width: 800px;
+    margin: 0 auto;
+}
+.Bulletin h1 {
+    font-size: 30px;
+}
+.BulletinButton {
+    float: right;
+    margin-top: 20px;
+}

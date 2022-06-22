@@ -1,14 +1,19 @@
+#root {
+    width: 100%;
+    height: 100%;
+}
 .header {
     height: 64px;
     background-color: #2196f3;
 }
+
 .header-icon {
     float: left;
     width: 65px;
     position: relative;
     cursor:pointer;
 }
-.header-icon::before {
+.header-item::before {
     content: "";
     position: absolute;
     display: none;
@@ -18,14 +23,32 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.04);
 }
-.header-icon:hover::before {
+.header-item:hover::before {
     display: block;
   }
 
 .header-center {
+    height: 100%;
     line-height: 64px;
-    height: 64px;
     text-align:center;
     color:white;
-    font-size: 30px;
+    font-size: 2vw;
+}
+
+.header-right {
+    float:right;
+}
+.header-right a{
+    display:block;
+    height: 100%;
+    line-height: 64px;
+    font-size: 20px;
+    padding: 0 10px;
+    position: relative;
+}
+.show {
+    display:block;
+}
+.noshow {
+    display: none !important;
 }
